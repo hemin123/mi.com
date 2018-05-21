@@ -146,6 +146,22 @@ function handleCard(){
 
 
     }
+
+    handleCarousel();
+    function handleCarousel(){
+  
+        new Carousel({
+            id:'Carousel',
+            aImg:[
+                'images/2.jpg',
+                'images/3.jpg',
+                'images/4.jpg'
+            ],
+            width:1200,
+            height:460,
+            playDuration:3000
+        })
+    }
     
 
 
