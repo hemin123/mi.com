@@ -56,7 +56,7 @@ function handleCard(){
     			oNevUI.innerHTML = '';
     			oNevcontent.style.borderTop='1px solid #ccc';
     			animation(oNevcontent,{height:200});
-    			oNevLoader.style.display = 'block';
+                oNevLoader.style.display = 'block';
     			var index = this.index;
     			setTimeout(function(){
     				loadData(index);
@@ -161,6 +161,71 @@ function handleCard(){
             height:460,
             playDuration:3000
         })
+    }
+
+    handHot();
+    function handHot(){
+        var aMaxa=document.querySelectorAll(".hot .max  .list  li a ");
+        var aMax=document.querySelector(".hot .max  .list  ");
+        var aContent=document.querySelector(".hot .max-content");
+
+        var oMaxUI = aContent.getElementsByTagName('ul')[0];
+        timer = null;
+        for (var i = 0; i < aMaxa.length; i++) {
+            aMaxa[i].onmouseenter = function(){
+                console.log(aMax);
+                
+                    for (var j = 0; j < aMaxa.length; j++) {
+                    aMaxa[j].className = '';
+                    }
+                    this.className = 'active';
+                    aContent.style.display = 'block';
+                    // loadData(this.index);
+    
+               
+            }
+        }
+
+            console.log(aMaxa);
+            aMax.onmouseleave = function(){
+               // alert('jjj');
+                timer = setTimeout(function(){
+                    console.log('离开');
+                    for (var i = 0; i < aMaxa.length; i++) {
+                        aMaxa[i].className = '';
+                    }
+                    aContent.style.display = 'none';
+                },500)
+            }
+            aContent.onmouseenter = function(){
+                clearTimeout(timer);
+            }
+            aContent.onmouseleave = function(){
+                 aContent.style.display = 'none';
+            }
+
+            function loadData(index){
+                oMaxUI.innerHTML = '';
+                var aDatas=aMaxItems[index];
+                if (!aDatas) {
+                    return;
+                }
+                var sHtml='';
+                for (var i = 0; i < aDatas.length; i++) {
+                    sHtml +='<li>';
+                    sHtml +='<img src="'+aDatas[i].img+'" alt="">';
+                    sHtml +='<a href="#">'+aDatas[i].name+'</a></li>';
+
+                }
+
+            }
+
+
+
+
+
+
+
     }
     
 

@@ -387,7 +387,7 @@ float: left;
 	border-top: 1px solid #ccc;
 	top: 140px;
 	left: 0;
-	z-index: 555;
+	z-index: 955;
 	box-shadow: 0px 2px 2px rgba(0,0,0,0.3);
 	overflow: hidden;
 }
@@ -507,13 +507,13 @@ font-weight: 100;
 	height: 40px;
 	position: relative;
 }
-.hot .max  ul li a{
+.hot .max  .list li a{
 	color: white;
 	position: absolute;
 	top: 10px;
 	left: 10px;
 }
-.hot .max  ul li span{
+.hot .max  .list li span{
 	color: white;
 	position: absolute;
 	right: 10px;
@@ -619,33 +619,45 @@ font-weight: 100;
 	top: 0px;
 	left: 234px;
 	width: 700px;
-	min-width: 500px;
 	height: 460px;
 	box-sizing: border-box;
 	box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
 	background: #fff;
 	z-index: 500;
+	box-sizing: border-box;
+	display: none;
+
 }
 .max .max-content ul li{
-	float: left;
-	margin: left;
+	display: inline-block;
 	margin-top: 20px; 
-
+	float: left;
+	margin-left: 5px;
+	height: 70px;
+	/*border: 1px solid #000;*/
+}
+.max .max-content ul li:hover{
+	background: #fff;
 }
 .max .max-content ul li img{
 	width: 60px;
 	height: 80px;
 	float: left;
 }
+
 .hot .max .max-content ul li a{
-margin-top: 20px;
+margin-top: 30px;
 	color: #000;
+float: left;
+background: #fff;
+/*border: 1px solid #000;*/
+}
+.hot .max .max-content ul li a:hover{
+color: #ff6700;
 
 
-	float: left;
 
 }
-
 
 	 /*大图完成*/
 .hot .box .logo2{
