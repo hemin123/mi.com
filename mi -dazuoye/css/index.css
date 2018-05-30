@@ -1073,6 +1073,7 @@ display: inline-block;
 
 
 
+
 .body .title2{
 	width: 100%;
 	height: 35px;
@@ -1098,12 +1099,15 @@ display: inline-block;
 	font-size: 15px;
 	padding: 2px;
 }
-.body .title2  ul li.active{
+.body .title2  ul li:first-child{
 	color: #ff6700;
 	border-bottom: 2px solid #ff6700;
 }
 
-
+.body .title2  ul li:hover{
+	color: #ff6700;
+	border-bottom: 2px solid #ff6700;
+}
 
 
 
@@ -1402,6 +1406,208 @@ height: 300px;
 	text-align: center;
 }
 
+/*-----------------------------------*/
+
+.body .remd{
+	width: 1200px;
+	height: 300px;
+	/*border: 1px solid #000;*/
+}
+.body .remd .re{
+		
+
+}
+.body .remd .re li{
+	width: 230px;
+	height: 300px;
+	background-color: #fff;
+	list-style: none;
+	display: inline-block;
+	margin-left: 10px;
+	float: left;
+
+
+}
+.body .remd li:first-child{
+	margin-left: 0px;
+}
+.body .remd .re li img{
+	margin: 15px 40px;
+}
+.body .remd .re li span {
+	display: block;
+	margin-top: 10px;
+	text-align: center;
+}
+.body .remd .re li span:nth-child(2){
+	font-size: 15px;
+	color: #000;
+}
+.body .remd .re li span:nth-child(3){
+	font-size: 12px;
+	color: #ff6700;
+}
+.body .remd .re li span:nth-child(4){
+	font-size: 12px;
+	color: #757575;
+}
+.body .remd .re li:hover{
+
+		box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+	transform: translateY(-3px);
+
+}
+
+/*
+.body .remd .re li .hand2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 230px ;
+	height: 800px;
+	background-color: #000;
+	z-index: 6;
+	margin-top: -300px;
+	
+
+}
+.body .remd .re li .hand2 a{
+	width: 230px ;
+	height: 800px;
+	background-color: red;
+}
+*/
+
+/*-------------------------=*/
+
+/*热评产品*/
+
+.body  .hotpin{
+	width: 1200px;
+	height: 415px;
+}
+.body  .hotpin ul li{
+	width: 290px;
+	height: 415px;
+	background-color: #fff;
+	list-style: none;
+	display: inline-block;
+	margin-left: 7px;
+	float: left;
+}
+.body  .hotpin ul li:first-child{
+
+	margin-left: 0px;
+}
+
+.body  .hotpin ul li  span:nth-child(2){
+	margin: 15px;
+	display: inline-block;
+	font-size: 15px;
+}
+.body  .hotpin ul li  span:nth-child(3){
+	margin: 15px;
+	display: block;
+	color: #757575;
+	font-size: 12px;
+}
+.body  .hotpin ul li  span:nth-child(4){
+	margin: 15px;
+	font-size: 15px;
+	/*display: inline-block;*/
+}.body  .hotpin ul li  span:nth-child(5){
+	color: #757575;
+	font-size: 12px;
+	/*display: inline-block;*/
+}.body  .hotpin ul li  span:nth-child(6){
+	margin: 15px;
+	color: #ff6700;
+	font-size: 15px;
+}
+
+.body  .hotpin ul li:hover{
+		box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+	transform: translateY(-3px);
+}
+/*-----------------------------------*/
+.body  .hotnei{
+	width: 1200px;
+	height: 415px;
+}
+.body  .hotnei ul li{
+	width: 290px;
+	height: 415px;
+	background-color: #fff;
+	list-style: none;
+	display: inline-block;
+	margin-left: 8px;
+	float: left;
+	border-top: 1px solid #ff6700;
+}
+.body  .hotnei ul li:first-child{
+	border-top: 1px solid #77e453;
+	margin-left: 0px;
+}
+.body  .hotnei ul li:nth-child(2){
+	border-top: 1px solid #0093ee;
+}
+.body  .hotnei ul li:nth-child(3){
+	border-top: 1px solid red;
+}
+.body  .hotnei ul li span:nth-child(1){
+	display: block;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 20px;
+}
+.body  .hotnei ul li span:nth-child(2){
+	display: block;
+	font-size: 21px;
+	text-align: center;
+	margin-top: 20px;
+}
+.body  .hotnei ul li span:nth-child(3){
+	display: block;
+	font-size: 15px;
+	color: #757575;
+	padding: 0 30px;
+	text-align: center;
+	margin-top: 10px;
+}.body  .hotnei ul li span:nth-child(4){
+	display: block;
+	font-size: 15px;
+
+	text-align: center;
+	margin-top: 15px;
+}
+.body  .hotnei ul li  img{
+	display: block;
+	margin-left: 70px;
+	width: 150px;
+	height: 150px;
+	margin-top: 20px;
+}
+.body  .hotnei ul li div{
+	width: 5px;
+	height: 5px;
+	border:2px solid #ff6700;
+	background-color: white;
+	margin-left: 20px;
+	border-radius: 50%;
+	display: inline-block;
+	margin-top: 25px;
+}
+.body  .hotnei ul li div:nth-child(6){
+	margin-left: 106px;
+}
+/*.body  .hotnei ul li div:hover{
+	background-color: #ff6700;
+	border: 1px solid #fff;
+}*/
+.body  .hotnei ul li:hover{
+box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+	transform: translateY(-3px);
+}
 
 
 
@@ -1646,124 +1852,6 @@ font-size: 17px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*区块链，比特币，就是解决跨国转账。
-
-
-买比特币，再卖
-
-
-虚拟币
-
-黑客黑不了区块链
-数据的存储和加密
-
-区块链借钱，类似信用体系。
-
-
-
-跨国转账的审核
-
-
-
-
-
-
-
-
-物联网
-
-人工智能
-区块链
-
-无人银行
-
-ABI的一个分支，物联网
-
-
-
-4g模块、屏幕都费电
-
-NBLOT
 
 
 
