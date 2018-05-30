@@ -106,392 +106,400 @@ var aNevItems= [
 var aMaxItems = [
 	[
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_02.gif",
 			name:"小米MIX 2s"
 		},
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_02.gif",
 			name:"小米MIX 2s"
 		},
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_02.gif",
 			name:"小米MIX 2s"
 		},
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_02.gif",
 			name:"小米MIX 2s"
 		},
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_02.gif",
 			name:"小米MIX 2s"
 		},
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_02.gif",
 			name:"小米MIX 2s"
 		},
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_02.gif",
 			name:"小米MIX 2s"
 		},
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_02.gif",
 			name:"小米MIX 2s"
 		},
 
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_02.gif",
+			name:"小米MIX 2s"
+		},																
+	],
+
+	[
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},																
+	],
+
+	[
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},																
+	],
+
+	[
+		{
+			img:"images/9_01.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_01.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_01.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_01.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_01.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_01.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_01.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_01.gif",
+			name:"小米MIX 2s"
+		},
+
+		{
+			img:"images/9_01.gif",
 			name:"小米MIX 2s"
 		},																
 	],
 	[
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_03.gif",
 			name:"小米MIX 2s"
 		},
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_03.gif",
 			name:"小米MIX 2s"
 		},
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_03.gif",
 			name:"小米MIX 2s"
 		},
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_03.gif",
 			name:"小米MIX 2s"
 		},
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_03.gif",
 			name:"小米MIX 2s"
 		},
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_03.gif",
 			name:"小米MIX 2s"
 		},
 		{
-		img:"images/9_03.jpg",
+			img:"images/9_03.gif",
 			name:"小米MIX 2s"
 		},
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_03.gif",
 			name:"小米MIX 2s"
 		},
 
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},																
+	],
+
+	[
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},																
+	],
+
+	[
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},
+
+		{
+			img:"images/9_03.gif",
+			name:"小米MIX 2s"
+		},																
+	],
+
+	[
+		{
+			img:"images/9_01.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_01.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_01.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_01.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_01.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_01.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_01.gif",
+			name:"小米MIX 2s"
+		},
+		{
+			img:"images/9_01.gif",
+			name:"小米MIX 2s"
+		},
+
+		{
+			img:"images/9_03.gif",
 			name:"小米MIX 2s"
 		},																
 	],
 	[
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_02.gif",
 			name:"小米MIX 2s"
 		},
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_02.gif",
 			name:"小米MIX 2s"
 		},
 		{
-		img:"images/9_03.jpg",
+			img:"images/9_02.gif",
 			name:"小米MIX 2s"
 		},
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_02.gif",
 			name:"小米MIX 2s"
 		},
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_02.gif",
 			name:"小米MIX 2s"
 		},
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_02.gif",
 			name:"小米MIX 2s"
 		},
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_02.gif",
 			name:"小米MIX 2s"
 		},
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_03.gif",
 			name:"小米MIX 2s"
 		},
 
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_03.gif",
 			name:"小米MIX 2s"
 		},																
 	],
+
 	[
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_01.gif",
 			name:"小米MIX 2s"
 		},
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_01.gif",
 			name:"小米MIX 2s"
 		},
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_01.gif",
 			name:"小米MIX 2s"
 		},
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_01.gif",
 			name:"小米MIX 2s"
 		},
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_01.gif",
 			name:"小米MIX 2s"
 		},
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_01.gif",
 			name:"小米MIX 2s"
 		},
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_01.gif",
 			name:"小米MIX 2s"
 		},
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_01.gif",
 			name:"小米MIX 2s"
 		},
 
 		{
-			img:"images/9_03.jpg",
+			img:"images/9_01.gif",
 			name:"小米MIX 2s"
 		},																
-	],		
-	[
-		{
-			img:"images/9_03.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/9_03.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/9_03.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/9_03.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/9_03.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/9_03.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/9_03.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/9_03.jpg",
-			name:"小米MIX 2s"
-		},
+	]
 
-		{
-			img:"images/9_03.jpg",
-			name:"小米MIX 2s"
-		},																
-	],
-	[
-		{
-			img:"images/9_03.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/9_03.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/9_03.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/9_03.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/9_03.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/9_03.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/9_03.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/9_03.jpg",
-			name:"小米MIX 2s"
-		},
-
-		{
-			img:"images/9_03.jpg",
-			name:"小米MIX 2s"
-		},																
-	],	
-	[
-		{
-			img:"images/p1.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/p1.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/p1.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/p1.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/p1.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/p1.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/p2.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/p2.jpg",
-			name:"小米MIX 2s"
-		},
-
-		{
-			img:"images/p1.jpg",
-			name:"小米MIX 2s"
-		},																
-	],
-	[
-		{
-			img:"images/p1.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/p1.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/p1.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/p1.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/p1.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/p1.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/p2.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/p2.jpg",
-			name:"小米MIX 2s"
-		},
-
-		{
-			img:"images/p1.jpg",
-			name:"小米MIX 2s"
-		},																
-	],
-	[
-		{
-			img:"images/p1.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/p1.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/p1.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/p1.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/p1.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/p1.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/p2.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/p2.jpg",
-			name:"小米MIX 2s"
-		},
-
-		{
-			img:"images/p1.jpg",
-			name:"小米MIX 2s"
-		},																
-	],
-	[
-		{
-			img:"images/p1.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/p1.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/p1.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/p1.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/p1.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/p1.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/p2.jpg",
-			name:"小米MIX 2s"
-		},
-		{
-			img:"images/p2.jpg",
-			name:"小米MIX 2s"
-		},
-
-		{
-			img:"images/p2.jpg",
-			name:"小米MIX 2s"
-		},																
-	],		
 ];

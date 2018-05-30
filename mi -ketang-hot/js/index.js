@@ -172,6 +172,7 @@ function handleCard(){
         var oMaxUI = aContent.getElementsByTagName('ul')[0];
         timer = null;
         for (var i = 0; i < aMaxa.length; i++) {
+            aMaxa[i].index = i;
             aMaxa[i].onmouseenter = function(){
                 console.log(aMax);
                 
@@ -180,7 +181,7 @@ function handleCard(){
                     }
                     this.className = 'active';
                     aContent.style.display = 'block';
-                    // loadData(this.index);
+                     loadData(this.index);
     
                
             }
@@ -217,8 +218,65 @@ function handleCard(){
                     sHtml +='<a href="#">'+aDatas[i].name+'</a></li>';
 
                 }
+                oMaxUI.innerHTML = sHtml;
 
             }
+
+
+    handleTime()
+    function handleTime(){
+        timer=null;
+        var abox = document.querySelectorAll('.hot .flash2  .time')
+        var nextData=new Date('2018/05/31 12:00:00');
+        //距离这个时间，剩余的时间
+        console.log(nextData.getTime());
+
+        function toStr(num){
+            if (num<10) {
+                return '0'+num;
+            }else{
+                return ''+num;
+            }
+        }
+        
+        timer =setInterval(time,500);
+
+        function time(){
+            var now = new Date();
+            console.log(now);
+            var allTime =nextData.getTime()-now.getTime();
+            //差不能太大，gettime是转化成秒
+          
+            if (allTime<0) {
+                allTime=0;
+                clearInterval(timer);
+            }
+            var all= parseInt(allTime/1000);
+            var h =parseInt(all/3600);
+            var m= parseInt((all%3600)/60);
+            var s= (all%3600)%60;
+            console.log(h+'##'+m+'##'+s);
+        abox[0].innerHTML= toStr(h);
+        abox[1].innerHTML= toStr(m);
+        abox[2].innerHTML= toStr(s);
+
+        }
+        time();
+
+    }
+
+    //function handleFlash()
+    function handleFlash(){
+        var aSpan =document.querySelectorAll('.hot .flashtop .dd span')
+        var oul =document.querySelector('.hot .flash3 ');
+        aSpan[1].onclick = function(){
+            animation(oul,{marginLeft:-988});
+        }
+        aSpan[0].onclick = function(){
+            animation(oul,{marginLeft:0});
+        }
+
+    }
 
 
 
