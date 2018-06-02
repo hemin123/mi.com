@@ -1,5 +1,8 @@
 
+/*
+何敏
 
+*/
 
 a{
 	text-decoration: none;
@@ -1099,7 +1102,7 @@ display: inline-block;
 	font-size: 15px;
 	padding: 2px;
 }
-.body .title2  ul li:first-child{
+ .title2  ul li.active{
 	color: #ff6700;
 	border-bottom: 2px solid #ff6700;
 }
@@ -1580,6 +1583,7 @@ height: 300px;
 	text-align: center;
 	margin-top: 15px;
 }
+
 .body  .hotnei ul li  img{
 	display: block;
 	margin-left: 70px;

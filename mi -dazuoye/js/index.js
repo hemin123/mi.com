@@ -1,5 +1,5 @@
 
-
+// 何敏
 handleCard();
 function handleCard(){
 
@@ -282,34 +282,288 @@ function handleCard(){
         }
     }
 
-    handmore()
-    function handmore(){
-        var ali=document.querySelectorAll('.body .title2  ul li');
+    handmore1()
+    function handmore1(){
+        var ali=document.querySelectorAll('.body .title2  ul.list1 li');
+        var oul=document.querySelector('.body .dian ul.list1');
         for (var i = 0; i < ali.length; i++) {
-            this.index = i;
+            ali[i].index = i;
             ali[i].onmouseenter = function (){
-                for (var i = 0; i < ali.length; i++) {
-                    ali[i].className = '';
+                for (var j = 0; j < ali.length; j++) {
+                    ali[j].className = '';
                 }
                 this.className = 'active';
-               // loadData(this.index);
+               loadData(this.index);
             }
         }
 
         
         function loadData(index){
-       oul.innerHTML='';
-       var aDatas = moreItems[inex];
-       if (!aDatas) {
-              return;
-       }
-       var sHtml = '';
-       for (var i = 0; i < aDatas.length; i++) {
-            //aDatas[i]
-        }    
+           oul.innerHTML='';
+           var aDatas = amoreItems[index];
+           console.log(index);
+           console.log(aDatas);
+           if (!aDatas) {
+                  return;
+           }
 
-
+           var sHtml = '';
+           for (var i = 0; i < aDatas.length; i++) {
+                //aDatas[i]
+                if (i==4) {
+                    sHtml += '<li class="body-mi">';
+                   sHtml+=' <div  class="boxtop">';
+                    sHtml+='<span class="zi">'+aDatas[i].top.desc+'</span><span class="price">399元</span>';
+                        
+                    
+                        sHtml+='<img src="./images/13.1.gif">';
+                
+                    sHtml+='<div class="hand1"> <a href="#"></a></div></div>';
+                    
+                    sHtml+='<div class="boxbtm"><span class="zi">浏览更多</span><span class="price">热门</span>';
+                        
+                    
+                    sHtml+='<img src="./images/13.gif">';
+                
+                    sHtml+='<div class="hand1"> <a href="#"></a></div></div>';
+                    sHtml+='</li>';
+                }
+                else {
+                sHtml+='<li class="body-mi ';
+                if(aDatas[i].tag){
+                    sHtml+=' flag '+aDatas[i].tag+' ">';
+                }else{
+                    sHtml+='">';
+                }
+                sHtml+=' <img src="'+aDatas[i].img+'">';
+                sHtml+='<span class="wt1">'+aDatas[i].intro+'</span>';
+                sHtml+='<span class="wt2">'+aDatas[i].desc+'</span>';
+                sHtml+='<span class="wt3">'+aDatas[i].price+'</span>';
+                sHtml+='<del class="wt4">3599元</del><div class="hand"> <a href="#"></a></div><div class="float"> <a href="#">'
+                sHtml+=aDatas[i].recomm+'<p>'+aDatas[i].aurhor+'</p></a></div></li>';
+                }
+            }
+            oul.innerHTML=sHtml;    
         }
+    }
+//搭配
+    handmore2()
+    function handmore2(){
+        var ali=document.querySelectorAll('.body .title2  ul.list2 li');
+        var oul=document.querySelector('.body .dian ul.list2');
+        for (var i = 0; i < ali.length; i++) {
+            ali[i].index = i;
+            ali[i].onmouseenter = function (){
+                for (var j = 0; j < ali.length; j++) {
+                    ali[j].className = '';
+                }
+                this.className = 'active';
+               loadData(this.index);
+            }
+        }
+
+        
+        function loadData(index){
+           oul.innerHTML='';
+           var aDatas = amoreItems2[index];
+           console.log(index);
+           console.log(aDatas);
+           if (!aDatas) {
+                  return;
+           }
+
+           var sHtml = '';
+           for (var i = 0; i < aDatas.length; i++) {
+                //aDatas[i]
+                if (i==4) {
+                    sHtml += '<li class="body-mi">';
+                   sHtml+=' <div  class="boxtop">';
+                    sHtml+='<span class="zi">'+aDatas[i].top.desc+'</span><span class="price">399元</span>';
+                        
+                    
+                        sHtml+='<img src="./images/13.1.gif">';
+                
+                    sHtml+='<div class="hand1"> <a href="#"></a></div></div>';
+                    
+                    sHtml+='<div class="boxbtm"><span class="zi">浏览更多</span><span class="price">热门</span>';
+                        
+                    
+                    sHtml+='<img src="./images/13.gif">';
+                
+                    sHtml+='<div class="hand1"> <a href="#"></a></div></div>';
+                    sHtml+='</li>';
+                }
+                else {
+                sHtml+='<li class="body-mi';
+               if(aDatas[i].tag){
+                    sHtml+=' flag '+aDatas[i].tag+'">';
+                }else{
+                    sHtml+='">';
+                }
+                sHtml+=' <img src="'+aDatas[i].img+'">';
+                sHtml+='<span class="wt1">'+aDatas[i].intro+'</span>';
+                sHtml+='<span class="wt2">'+aDatas[i].desc+'</span>';
+                sHtml+='<span class="wt3">'+aDatas[i].price+'</span>';
+                sHtml+='<del class="wt4">3599元</del><div class="hand"> <a href="#"></a></div><div class="float"> <a href="#">'
+                sHtml+=aDatas[i].recomm+'<p>'+aDatas[i].aurhor+'</p></a></div></li>';
+                }
+            }
+            oul.innerHTML=sHtml;    
+        }
+    }
+//配件
+    handmore3()
+    function handmore3(){
+        var ali=document.querySelectorAll('.body .title2  ul.list3 li');
+        var oul=document.querySelector('.body .dian ul.list3');
+        for (var i = 0; i < ali.length; i++) {
+            ali[i].index = i;
+            ali[i].onmouseenter = function (){
+                for (var j = 0; j < ali.length; j++) {
+                    ali[j].className = '';
+                }
+                this.className = 'active';
+               loadData(this.index);
+            }
+        }
+
+        
+        function loadData(index){
+           oul.innerHTML='';
+           var aDatas = amoreItems3[index];
+           console.log(index);
+           console.log(aDatas);
+           if (!aDatas) {
+                  return;
+           }
+
+           var sHtml = '';
+           for (var i = 0; i < aDatas.length; i++) {
+                //aDatas[i]
+                if (i==4) {
+                    sHtml += '<li class="body-mi">';
+                   sHtml+=' <div  class="boxtop">';
+                    sHtml+='<span class="zi">'+aDatas[i].top.desc+'</span><span class="price">399元</span>';
+                        
+                    
+                        sHtml+='<img src="'+aDatas[i].top.img+'">';
+                
+                    sHtml+='<div class="hand1"> <a href="#"></a></div></div>';
+                    
+                    sHtml+='<div class="boxbtm"><span class="zi">'+aDatas[i].bottom.desc+'</span><span class="price">热门</span>';
+                        
+                    
+                    sHtml+='<img src="./images/13.gif">';
+                
+                    sHtml+='<div class="hand1"> <a href="#"></a></div></div>';
+                    sHtml+='</li>';
+                }
+                else {
+                sHtml+='<li class="body-mi';
+               if(aDatas[i].tag){
+                    sHtml+=' flag '+aDatas[i].tag+'">';
+                }else{
+                    sHtml+='">';
+                }
+                sHtml+=' <img src="'+aDatas[i].img+'">';
+                sHtml+='<span class="wt1">'+aDatas[i].intro+'</span>';
+                sHtml+='<span class="wt2">'+aDatas[i].desc+'</span>';
+                sHtml+='<span class="wt3">'+aDatas[i].price+'</span>';
+                sHtml+='<del class="wt4">3599元</del><div class="hand"> <a href="#"></a></div><div class="float"> <a href="#">'
+                sHtml+=aDatas[i].recomm+'<p>'+aDatas[i].aurhor+'</p></a></div></li>';
+                }
+            }
+            oul.innerHTML=sHtml;    
+        }
+    }
+//多个选项
+     handmore4()
+    function handmore4(){
+        var ali=document.querySelectorAll('.body .title2  ul.list4 li');
+        var oul=document.querySelector('.body .dian ul.list4');
+        for (var i = 0; i < ali.length; i++) {
+            ali[i].index = i;
+            ali[i].onmouseenter = function (){
+                for (var j = 0; j < ali.length; j++) {
+                    ali[j].className = '';
+                }
+                this.className = 'active';
+               loadData(this.index);
+            }
+        }
+
+        
+        function loadData(index){
+           oul.innerHTML='';
+           var aDatas = amoreItems4[index];
+           console.log(index);
+           console.log(aDatas);
+           if (!aDatas) {
+                  return;
+           }
+
+           var sHtml = '';
+           for (var i = 0; i < aDatas.length; i++) {
+                //aDatas[i]
+                if (i==4) {
+                    sHtml += '<li class="body-mi">';
+                   sHtml+=' <div  class="boxtop">';
+                    sHtml+='<span class="zi">'+aDatas[i].top.desc+'</span><span class="price">399元</span>';
+                        
+                    
+                        sHtml+='<img src="'+aDatas[i].top.img+'">';
+                
+                    sHtml+='<div class="hand1"> <a href="#"></a></div></div>';
+                    
+                    sHtml+='<div class="boxbtm"><span class="zi">'+aDatas[i].bottom.desc+'</span><span class="price">热门</span>';
+                        
+                    
+                    sHtml+='<img src="./images/13.gif">';
+                
+                    sHtml+='<div class="hand1"> <a href="#"></a></div></div>';
+                    sHtml+='</li>';
+                }
+                else {
+                sHtml+='<li class="body-mi';
+                if(aDatas[i].tag){
+                    sHtml+=' flag '+aDatas[i].tag+'">';
+                }else{
+                    sHtml+='">';
+                }
+                sHtml+=' <img src="'+aDatas[i].img+'">';
+                sHtml+='<span class="wt1">'+aDatas[i].intro+'</span>';
+                sHtml+='<span class="wt2">'+aDatas[i].desc+'</span>';
+                sHtml+='<span class="wt3">'+aDatas[i].price+'</span>';
+                sHtml+='<del class="wt4">3599元</del><div class="hand"> <a href="#"></a></div><div class="float"> <a href="#">'
+                sHtml+=aDatas[i].recomm+'<p>'+aDatas[i].aurhor+'</p></a></div></li>';
+                }
+            }
+            oul.innerHTML=sHtml;    
+        }
+    }
+
+
+    handlebook()
+    function handlebook(){
+        var ali=document.querySelectorAll('.body .hotnei ul li');
+        var aImg=document.querySelectorAll('.body .hotnei ul li img');
+        for (var i = 0; i < ali.length; i++) {
+            ali[0].onclick = function(){
+                aImg.style.src='./images/nei_2.gif';
+            }
+            ali[1].onclick = function(){
+                aImg.style.src='./images/nei_3.gif';
+            }
+            ali[2].onclick = function(){
+                aImg.style.src='./images/nei_4.gif';
+            }
+            
+        }
+
+       
+        
+
+        
     }
 
 
